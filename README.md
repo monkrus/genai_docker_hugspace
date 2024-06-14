@@ -1,1 +1,1 @@
-# nim_basics
+# nim_rag_chatbot
