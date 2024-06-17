@@ -1,1 +1,3 @@
-### create genai using docker and uploading it HS spaces
+
+
+### `pip install -r requiremenets.txt`
