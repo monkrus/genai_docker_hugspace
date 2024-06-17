@@ -17,4 +17,6 @@ def generate(text: str):
     ## use the pipeline to generate text from the given input text
     output=pipe(text)
     
+    ## return the generated text as a JSON response
+    return {"output": output[0]["generated_text"]}
     
