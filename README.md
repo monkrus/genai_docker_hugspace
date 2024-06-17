@@ -1,1 +1,1 @@
-### create genai using docker and uploading it HS spaces
+### Create GenAI app using docker and upload it to HuggingFace spaces
