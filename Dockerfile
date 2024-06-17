@@ -27,4 +27,4 @@ WORKDIR ${HOME}/app
 COPY --chown=user . $HOME/app
 
 ### start the FASTAPI on port 
-CMD ["uvicorn", "app:app", "--host", "0.0.9.0", "--port", 7
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "7860"]
