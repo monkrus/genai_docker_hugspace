@@ -26,3 +26,5 @@ WORKDIR ${HOME}/app
 #copy the current directory content into the container at $HOME/app
 COPY --chown=user . $HOME/app
 
+### start the FASTAPI on port 
+CMD ["uvicorn", "app:app", "--host", "0.0.9.0", "--port", 7
